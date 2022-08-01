@@ -1,0 +1,225 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task05</title>
+</head>
+<style>
+     *{
+        padding: 0px;
+        margin: 0px;
+    }
+   
+     .navbar{
+     display: flex;
+     color:white;
+     justify-content: space-between;
+     align-items: center;
+     background-color: black;
+     padding: 3rem 4rem;
+     bottom:15rem;
+      opacity:0.9;
+   }
+  
+   .navbar ul{
+        display: flex;
+    }
+    .navbar ul li{
+        display: flex;
+        align-items: center;
+       list-style:none;
+       justify-content: center;
+    }
+    .navbar ul li a{
+        color:whitesmoke;
+       font-size:1.2rem;
+        text-decoration:none;
+        padding:7px ;
+        list-style: none;
+
+    }
+    
+    .purple{
+    color:purple;
+  }
+  .navbar .red {
+    padding: 7px;
+    border-radius: 6px;
+    cursor: pointer;
+   
+}
+.navbar .yellow{
+ background-color: purple;
+ border-radius: 3px solid purple;
+ padding: 6px;
+ cursor: pointer;
+ border-radius: 5px;
+ color: white;
+ 
+}
+.box1{
+    display: flex;
+    justify-content: center;
+   }
+   .box1  {
+        color:black;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        padding:0rem 6rem ;
+    }
+    
+    .box2{
+    display: flex;
+    justify-content: center;
+   
+   }
+  .items{
+  text-align: center;
+  }
+   .items img{
+    height:25vh;
+    width:17vw;
+    padding:1rem ;
+   }
+   .box5{
+     height:79vh ;
+       color:white;
+     background-color: black;
+     padding:3rem 4rem ;
+     bottom:5rem;
+      opacity:0.8;
+      
+   }
+   form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height:1rem ;
+   
+   }
+   form input{
+  border-radius: 2px;
+   height:4vh;
+   width:20vw;
+   }
+   form textarea{
+    height:40vh;
+    width:30vw;
+   }
+  .box5 h1{
+     text-align: center;
+       color:white;
+     background-color: black;
+     position: relative;
+      opacity:0.8;
+      bottom:2rem ;
+  }
+    .pink{
+        background-color:darkblue ;
+        cursor:pointer ;
+        color: whitesmoke;
+        border-radius: 3px solid darkblue;
+       border-radius:5px ;
+        padding:6px ;
+        bottom:0.2rem;
+        position: relative;
+        display: block;
+        margin: auto;
+        width:8vw;
+        right:9.4rem;
+    }
+    footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:darkblue;
+    color:white;
+    height: 9vh;
+   
+ }
+.form1{
+    display: flex;
+    justify-content:center;
+    bottom:2rem;
+   
+}
+.royalblue{
+color:darkblue;
+}
+ .name{
+    width:100%;
+    background-color:purple;
+    height:1vh;
+   
+ }
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+               <h1><b><span class="purple">Bisma </span> Tanveer Mirza</b></h1> 
+               <ul>
+               
+                   <li><a href="HOME">HOME</a></li>
+                   <li><a href="ABOUT"><span class="purple">ABOUT</span></a></li>
+                   <li><a href="SERVICES">SERVICES</a></li>
+               </ul>
+               </div>
+           </nav>
+           <div class="name">
+           </div>
+       </header>
+       <nav class="navbar">
+        <h1>Subcribe to our news teller</h1>
+      <div>
+            <button class="red"> Please Enter Your Email</button>
+            <button class="yellow">Subcribe</button>
+      </div>
+       </nav>
+       <div class="box1">
+        <h1><span class="purple">Who </span>we are</h1><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam molestias fugiat sed quidem, unde quod optio, repudiandae numquam itaque sequi suscipit ab obcaecati cum fugit commodi recusandae vel temporibus, ducimus illo maxime non culpa a quas! Deleniti veritatis vel nostrum aperiam impedit nulla reiciendis optio eius eos aliquid earum nemo facere molestias officiis porro voluptates, ducimus dolore provident! Quidem numquam commodi sed sunt expedita. Necessitatibus minima, dolor pariatur esse quo aut. Quisquam delectus dignissimos error autem exercitationem dicta ex porro!</p>
+     </div><br>
+     <div class="box2">
+        <h1><span class="purple">Our </span> clients</h1><br>
+     </div>
+   <div class="items">
+    <div class="box4">
+        <img src="micro.jpg" alt="micro">
+        <img src="fire.png" alt="fire">
+        <img src="b.jpg" alt="b">
+        <img src="globe.jpg" alt="globe">
+        <img src="tech.jpg" alt="tech">
+    </div>
+   </div>
+   <div class="box5">
+    <h1><span class="royalblue">Contact </span>us</h1>
+    <div class="form1">
+    <form>
+       
+            <label for="Name">Name:</label><br>
+            <input type="name" id="name" name="name" placeholder=" Please enter  your name ."><br>
+            <label for="email">Email:</label><br>
+            <input type="email"id="email"name="email"placeholder=" Please enter your email ."></br>
+            <label for="Message">Message:</label><br>
+            <textarea name="message" id="Message" cols="30" rows="10"placeholder="Enter your Message."></textarea><br>
+    </form>
+ 
+
+ </div>
+
+ <button class="pink">Submit Now</button>
+
+ </div>
+ <footer>
+    <p>Bisma's Technologies| All right reserved and &copy; 2022</p>
+    
+</footer>
+
+</body>
+</html>
